@@ -1,4 +1,4 @@
-# Video-Game-Recommendation-Engine
+# Video-Game-Recommendation-Bot
 
 Link:
 https://discord.com/oauth2/authorize?client_id=1235006287797026946&permissions=0&scope=bot
