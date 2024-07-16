@@ -1,7 +1,6 @@
 # Video-Game-Recommendation-Bot
 
-Link:
-https://discord.com/oauth2/authorize?client_id=1235006287797026946&permissions=0&scope=bot
+Link: https://discord.com/oauth2/authorize?client_id=1235006287797026946
 
 The objective of this project was to create a video game recommendation engine that utilizes data obtained from steam’s API upon request from the user through discord.
 The retrieved data is then passed to ChatGPT’s api where it analyzes relevant data to generate a recommendation.
