@@ -50,7 +50,7 @@ async def reco(ctx):
     def check(m):
         return m.author == ctx.author and m.channel == ctx.channel
     
-    #Handle time out error.
+    #Handle time out error.     
     try:
         message = await bot.wait_for('message', check=check, timeout=30.0)
     except asyncio.TimeoutError:

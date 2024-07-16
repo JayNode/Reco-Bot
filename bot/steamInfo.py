@@ -1,7 +1,11 @@
-from steam import Steam
+import os
+from steam_web_api import Steam
 from decouple import config
 
-KEY = config("STEAM_API_KEY")
+# KEY = config("STEAM_API_KEY")
+# steam = Steam(KEY)
+
+KEY = os.environ.get("STEAM_API_KEY")
 steam = Steam(KEY)
 
 def get_user_games(userId):
