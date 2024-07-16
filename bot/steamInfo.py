@@ -23,6 +23,7 @@ def get_user_games(userId):
     return gameNames
 
 def get_username(steam_username):
+    print("testing get_username")
     # get user id from steam username
     userId = steam.users.get_steamid(steam_username)['steamid']
     print("Steam username: " + steam_username)
@@ -31,6 +32,7 @@ def get_username(steam_username):
     return userId
 
 def main(user):
+    print(user)
     #get username of user
     userId = get_username(user)
     

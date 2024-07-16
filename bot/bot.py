@@ -58,6 +58,7 @@ async def reco(ctx):
     #If user does not time out, store the username in temporary storage.
     else:
         steam_username = message.content
+        print(steam_username)
 
         # Store the received username in new Store_usernames dictionary
         stored_usernames[steam_username] = steam_username
