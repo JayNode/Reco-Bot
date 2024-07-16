@@ -44,7 +44,7 @@ async def help(ctx):
 @bot.command()
 async def reco(ctx): 
     # Ask the user for a username
-    await ctx.send("Please enter your Steam username:")
+    await ctx.send("Please enter a Steam username:")
 
     # Wait for the user's response
     def check(m):
